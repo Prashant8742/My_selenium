@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parent_Suite" duration-ms="85" started-at="2021-08-26T11:52:51Z" finished-at="2021-08-26T11:52:51Z">
+    <groups>
+    </groups>
+    <test name="ItestReporter" duration-ms="85" started-at="2021-08-26T11:52:51Z" finished-at="2021-08-26T11:52:51Z">
+      <class name="Listener.IAnnotationTransformer.test">
+        <test-method status="PASS" signature="changeInvocationCountOfMethod()[pri:0, instance:Listener.IAnnotationTransformer.test@31ef45e3]" name="changeInvocationCountOfMethod" duration-ms="7" started-at="2021-08-26T11:52:51Z" finished-at="2021-08-26T11:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeInvocationCountOfMethod -->
+        <test-method status="PASS" signature="changeInvocationCountOfMethod()[pri:0, instance:Listener.IAnnotationTransformer.test@31ef45e3]" name="changeInvocationCountOfMethod" duration-ms="4" started-at="2021-08-26T11:52:51Z" finished-at="2021-08-26T11:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeInvocationCountOfMethod -->
+        <test-method status="PASS" signature="changeInvocationCountOfMethod()[pri:0, instance:Listener.IAnnotationTransformer.test@31ef45e3]" name="changeInvocationCountOfMethod" duration-ms="0" started-at="2021-08-26T11:52:51Z" finished-at="2021-08-26T11:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeInvocationCountOfMethod -->
+        <test-method status="PASS" signature="changeInvocationCountOfMethod()[pri:0, instance:Listener.IAnnotationTransformer.test@31ef45e3]" name="changeInvocationCountOfMethod" duration-ms="0" started-at="2021-08-26T11:52:51Z" finished-at="2021-08-26T11:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeInvocationCountOfMethod -->
+        <test-method status="PASS" signature="changeInvocationCountOfMethod()[pri:0, instance:Listener.IAnnotationTransformer.test@31ef45e3]" name="changeInvocationCountOfMethod" duration-ms="2" started-at="2021-08-26T11:52:51Z" finished-at="2021-08-26T11:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeInvocationCountOfMethod -->
+      </class> <!-- Listener.IAnnotationTransformer.test -->
+    </test> <!-- ItestReporter -->
+  </suite> <!-- Parent_Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parent_Suite]">
+  <listeners>
+    <listener class-name="Listener.IAnnotationTransformer.my_listener"/>
+  </listeners>
+  <test thread-count="5" name="ItestReporter(failed)">
+    <classes>
+      <class name="Listener.IAnnotationTransformer.test">
+        <methods>
+          <include name="changeInvocationCountOfMethod"/>
+        </methods>
+      </class> <!-- Listener.IAnnotationTransformer.test -->
+    </classes>
+  </test> <!-- ItestReporter(failed) -->
+</suite> <!-- Failed suite [Parent_Suite] -->
