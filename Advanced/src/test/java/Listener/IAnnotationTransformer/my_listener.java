@@ -7,15 +7,15 @@ import org.testng.annotations.ITestAnnotation;
 import org.testng.internal.annotations.IAnnotationTransformer;
 
 public class my_listener implements IAnnotationTransformer {
-	int counter=3;
+	public int counter=3;
 	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
 		// TODO Auto-generated method stub
 		
 		
-		if (testMethod.getName().equals("ChangeInvocationCountOfMethod")) {
+		if (testMethod.getName().equals("changeInvocationCountOfMethod")) {
 		System.out.println("Changing invocation for the following method: " + testMethod.getName());
 		annotation.setInvocationCount(counter);	
-	     }
+	     } 
 
 }
 }
